@@ -2,6 +2,12 @@ public class Veiculo {
     protected String marca;
     protected String modelo;
     protected int ano;
+    
+    public Veiculo() {
+       this.marca = "";
+       this.modelo = "";
+       this.ano = 0;
+    }
 
     public Veiculo(String marca, String modelo, int ano) {
        this.marca = marca;
